@@ -2,6 +2,10 @@
 
 It is a frontend for single page application. Reach JavaScript is present.
 
+Errors discovered and corrected:
+1. Fixed links to URLs for API (caused redirection and change of method from POST to GET)
+2. Support for cookies is enabled by adding the attribute 'credentials': 'include'
+
 # Deploy on localhost
 
 Example of frontend launch on Linux, Python 3.5:
